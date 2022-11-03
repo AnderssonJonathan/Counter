@@ -1,0 +1,76 @@
+body {
+    font-family: 'Trispace', sans-serif;
+    height: 1000px;
+    background-color: #9FD0F1;
+    background-image: url("./img/wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10;
+}
+
+.header > h2 {
+    margin-top: 0;
+}
+
+.inputNum {
+    margin-top: 30px;
+    padding-right: 55px;
+}
+
+#n1, #n2 {
+    font-family: 'Trispace', sans-serif;
+    height: 30px;
+    font-size: 20px;
+}
+
+.style, #inputResult {
+    font-family: 'Trispace', sans-serif;
+    color: black;
+    background-color: #fff;
+    height: 20px;
+    border: 1px solid rgb(106, 106, 106);
+    text-align: center;
+    border-radius: 10px;
+}
+
+#operator, #btn {
+    font-family: 'Trispace', sans-serif;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.result, .calculate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.select {
+    margin-bottom: 20px;
+}
+
+#inputResult {
+    border: none;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+}
+
